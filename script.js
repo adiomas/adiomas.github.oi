@@ -146,7 +146,7 @@ function generateSignatureOutlookMail() {
               <tr>
                   <td style="margin: 0.1px; padding: 12px 0px 6px 0px; text-align: left; font-family: Arial, Helvetica, sans-serif;">
                       <div style="font-weight: 600; font-size: 13px; color: rgb(35, 71, 149); text-transform: uppercase;">${fullName}</div>
-                      <div style="font-size: 10px; color: rgb(0, 0, 1); text-transform: uppercase;">${jobRole}</div>
+                      <div style="font-size: 10px; color: rgb(0, 0, 1); font-weight: 600; text-transform: uppercase;">${jobRole}</div>
                   </td>
               </tr>
               <tr>
