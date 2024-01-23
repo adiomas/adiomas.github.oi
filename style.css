@@ -89,6 +89,34 @@ input[type="button"]:hover {
 
 }
 
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="button"] {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #signaturePreview {
+    padding: 10px;
+  }
+
+  #copyButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
 #snackbar {
   visibility: hidden;
   min-width: 250px;
