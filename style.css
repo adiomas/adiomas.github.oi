@@ -91,15 +91,15 @@ input[type="button"]:hover {
 
 @media screen and (max-width: 500px) {
   .email-signature {
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .email-signature img {
-    max-width: 55px;
+    max-width: 60px;
   }
 
   .email-signature a {
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .email-signature td {
