@@ -178,7 +178,7 @@ function generateSignature() {
                             <tr>
                                 <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px;">
                                     <a href="${website}" target="_blank">
-                                        <img src="${imageURL}" width="80" alt="Euroyacht" style="display: block; min-width: 80px;">
+                                        <img src="${imageURL}" width="70" alt="Euroyacht" style="display: block; min-width: 70px;">
                                     </a>
                                 </td>
                                 <td valign="top" style="border-left-width: 1px; border-left-style: solid; border-left-color: rgb(35, 71, 149); margin: 0.1px; padding: 0px 0px 0px 12px; font-family: Arial, Helvetica, sans-serif;">
