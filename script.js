@@ -139,7 +139,7 @@ function generateSignatureOutlookMail() {
               <tr>
                   <td style="margin: 0.1px; padding: 0px; text-align: left;">
                       <a href="${website}" target="_blank">
-                          <img src="${imageURL}" width="70" alt="Euroyacht" style="display: block; min-width: 70px;">
+                          <img src="${imageURL}" width="75" alt="Euroyacht" style="display: block; min-width: 75px;">
                       </a>
                   </td>
               </tr>
