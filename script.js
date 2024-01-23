@@ -7,13 +7,16 @@ function generateSignature() {
 
 
 
+
+
+
+  const imageURL = "https://i.ibb.co/gVYGPL3/logo.png";
   const emailLogo = "https://i.ibb.co/sC9nLBw/email.png";
   const phoneLogo = "https://i.ibb.co/S5qCxTb/phone.png";
   const webLogo = "https://i.ibb.co/DL794Zb/website.png";
   const instagramLogo = "https://i.ibb.co/4mmBC8r/instagram.png";
   const tiktokLogo = "https://i.ibb.co/sydZKnm/tiktok.png";
   const facebookLogo = "https://i.ibb.co/4NDKPwt/facebook.png";
-  const imageURL = "https://i.ibb.co/gVYGPL3/logo.png";
 
 
   // Validate input fields
@@ -45,13 +48,13 @@ function generateSignature() {
                                     <td style="vertical-align: middle;">
                                         <ul style="padding: 10px 0px 0px; margin: 0px; list-style-type: none;">
                                             <li style="font-size: 12px; color: black; line-height: 15px;">
-                                                <img src="${phoneLogo}" style="width: 16px; vertical-align: middle;">&nbsp; <a href="tel://${mobile}" style="color: black;" target="_blank">${mobile}</a>
+                                                <img src="${phoneLogo}" style="width: 16px; vertical-align: middle;" width="16">&nbsp; <a href="tel://${mobile}" style="color: black;" target="_blank">${mobile}</a>
                                             </li>
                                             <li style="font-size: 12px; color: black; line-height: 15px;">
-                                                <img src="${emailLogo}" style="width: 16px; vertical-align: middle;">&nbsp; <a href="mailto:${email}" style="color: black;" target="_blank">${email}</a>
+                                                <img src="${emailLogo}" style="width: 16px; vertical-align: middle;" width="16">&nbsp; <a href="mailto:${email}" style="color: black;" target="_blank">${email}</a>
                                             </li>
                                             <li style="font-size: 12px; color: black; line-height: 15px;">
-                                                <img src="${webLogo}" style="width: 16px; vertical-align: middle;">&nbsp; <a href="${website}" style="color: black;" target="_blank">EuroYacht</a>
+                                                <img src="${webLogo}" style="width: 16px; vertical-align: middle;" width="16">&nbsp; <a href="${website}" style="color: black;" target="_blank">EuroYacht</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -63,11 +66,11 @@ function generateSignature() {
                             <tr>
                                 <td>
                                     <a href="https://instagram.com/euroyacht" target="_blank">
-                                        <img src="${instagramLogo}" style="width: 20px; vertical-align: middle; margin-right: 5px;"></a>
+                                        <img src="${instagramLogo}" style="width: 24px; vertical-align: middle; margin-right: 5px;" width="24"></a>
                                     <a href="https://facebook.com/euroyacht.hr" target="_blank">
-                                        <img src="${facebookLogo}" style="width: 20px; vertical-align: middle; margin-right: 5px;"></a>
+                                        <img src="${facebookLogo}" style="width: 24px; vertical-align: middle; margin-right: 5px;" width="24"></a>
                                     <a href="https://tiktok.com/@euroyachtcharter" target="_blank">
-                                        <img src="${tiktokLogo}" style="width: 20px; vertical-align: middle;"></a>
+                                        <img src="${tiktokLogo}" style="width: 24px; vertical-align: middle;" width="24"></a>
                                 </td>
                             </tr>
                         </tbody>

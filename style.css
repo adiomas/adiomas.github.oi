@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
@@ -79,6 +79,14 @@ input[type="button"]:hover {
 .error-message {
   color: red;
   margin: 10px 0;
+}
+
+.social-image {
+  max-width: 16px;
+  max-height: 16px;
+  width: auto;
+  height: auto;
+
 }
 
 #snackbar {
