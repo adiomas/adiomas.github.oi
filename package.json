@@ -1,0 +1,32 @@
+{
+  "name": "email-signature-generator",
+  "version": "1.0.0",
+  "description": "Email signature generator for Euroyacht",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "webpack --mode production",
+    "start": "http-server"
+  },
+  "keywords": [
+    "email",
+    "signature",
+    "generator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "http-server": "^14.1.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {}
+  }
+}

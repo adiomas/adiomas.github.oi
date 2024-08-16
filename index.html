@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>Email Signature Generator</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature Generator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <div class="container">
-    <h2>Email Signature Generator</h2>
-    <form id="signatureForm">
-      <div class="form-row">
-        <input type="text" id="fullName" placeholder="Full Name">
-      </div>
-      <div class="form-row">
-        <input type="text" id="jobRole" placeholder="Job Role (Booking agent, Base manager etc..)">
-      </div>
-      <div class="form-row">
-        <input type="text" id="mobile" placeholder="+385 98 450 9583">
-      </div>
-      <div class="form-row">
-        <input type="email" id="email" placeholder="Email">
-      </div>
-      <div class="form-row">
-        <input type="button" value="Generate (OUTLOOK + MAIL - iOS)" onclick="generateSignatureOutlookMail()">
-      </div>
-      <div class="form-row">
-        <input type="button" value="Generate (OUTLOOK)" onclick="generateSignatureOutlook()">
-      </div>
-    </form>
-    <div id="error-message" class="error-message"></div>
-    <div class="email-signature" id="signaturePreview"></div>
-    <button id="copyButton" class="hidden">Copy Signature</button>
-    <div id="snackbar">Signature copied</div>
-  </div>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Email Signature Generator</h1>
+        <form id="signatureForm">
+            <div class="form-row">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+            </div>
+            <div class="form-row">
+                <input type="text" id="jobRole" placeholder="Job Role (e.g., Booking agent, Base manager)" required>
+            </div>
+            <div class="form-row">
+                <input type="tel" id="mobile" placeholder="+385 98 450 9583" required>
+            </div>
+            <div class="form-row">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-row">
+                <button type="button" id="generateOutlook">Generate (OUTLOOK)</button>
+            </div>
+            <div class="form-row">
+                <button type="button" id="generateOutlookMail">Generate (OUTLOOK + MAIL - iOS)</button>
+            </div>
+        </form>
+        <div id="error-message" class="error-message"></div>
+        <div id="signaturePreview" class="email-signature"></div>
+        <button id="copyButton" class="hidden">Copy Signature</button>
+        <div id="snackbar"></div>
+    </div>
+    <script type="module" src="js/utils.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
-
 </html>
